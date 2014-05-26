@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package>
+  <name>rcommander</name>
+  <version>0.0.1</version>
+  <description>
+      Package for RCommander runtime and libraries. See stack documentation for tutorials and documentation.</description>
+
+  <maintainer email="futureneer@gmail.com">Kel Guerin</maintainer>
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/rcommander_core</url>
+  <author>Hai Nguyen (haidai@gmail.com), Advisor: Charles C. Kemp (Georgia Tech)</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>rospy</build_depend>
+  <build_depend>nodebox_qt</build_depend>
+  <build_depend>smach</build_depend>
+  <build_depend>smach_ros</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>tf_broadcast_server</build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>nodebox_qt</run_depend>
+  <run_depend>smach</run_depend>
+  <run_depend>smach_ros</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>tf_broadcast_server</run_depend>
+  <run_depend>message_runtime</run_depend>
+
+</package>
+
+

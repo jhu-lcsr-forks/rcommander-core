@@ -1,8 +1,0 @@
-python-qt4-gl:
-  ubuntu: 
-        10.04: python-qt4-gl
-
-python-scipy:        
-  ubuntu: 
-        10.04: python-scipy
-

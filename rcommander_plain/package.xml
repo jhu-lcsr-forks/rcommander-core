@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+  <name>rcommander_plain</name>
+  <version>0.0.1</version>
+  <description>
+      Package that launches a minimal version of RCommander and illustrates how to adapt it to different robots.</description>
+
+  <maintainer email="futureneer@gmail.com">Kel Guerin</maintainer>
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/rcommander_plain</url>
+  <author>Hai Nguyen (haidai@gmail.com), Advisor: Charles C. Kemp (Georgia Tech)</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>rospy</build_depend>
+  <build_depend>rcommander</build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>rcommander</run_depend>
+
+  <export>
+      <rcommander plugin="rcommander_plain.sleep_tool" robot="myrobot" tab="My Robot Actions"/>
+      <rcommander plugin="rcommander_plain.input_tool" robot="myrobot" tab="My Robot Actions"/>
+      <rcommander plugin="rcommander_plain.output_tool" robot="myrobot" tab="My Robot Actions"/>
+  </export>
+
+</package>
+
+
