@@ -4,7 +4,7 @@ from math import sqrt
 import scipy.spatial as sp
 import scipy.spatial.distance as spd
 import numpy as np
-import nodebox_springlayout as nbs
+import nodebox_qt.graph.nodebox_springlayout as nbs
 
 class Point:
     def __init__(self, x, y):

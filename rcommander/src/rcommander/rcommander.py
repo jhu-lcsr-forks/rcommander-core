@@ -14,7 +14,7 @@ import signal
 import smach
 
 #NodeBox 
-import graph
+import nodebox_qt.graph
 
 import graph_view as gv
 import nodebox_gui as nbg
